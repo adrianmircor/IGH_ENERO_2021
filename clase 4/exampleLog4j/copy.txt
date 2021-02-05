@@ -1,0 +1,52 @@
+
+
+log4j.rootLogger=All, Archivo
+log4j.appender.Archivo.Threshold=info
+log4j.appender.Archivo=org.apache.log4j.FileAppender
+log4j.appender.Archivo.File=asd.log
+log4j.appender.Archivo.layout=org.apache.log4j.PatternLayout
+log4j.appender.Archivo.layout.ConversionPattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L %m%n
+
+log4j.rootLogger=All, Archivo1
+log4j.appender.Archivo1.Threshold=warn
+log4j.appender.Archivo1=org.apache.log4j.FileAppender
+log4j.appender.Archivo1.File=registros2.log
+log4j.appender.Archivo1.layout=org.apache.log4j.PatternLayout
+log4j.appender.Archivo1.layout.ConversionPattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L %m%n
+
+log4j.rootLogger=All, Archivo2
+log4j.appender.Archivo2.Threshold=fatal
+log4j.appender.Archivo2=org.apache.log4j.FileAppender
+log4j.appender.Archivo2.File=registros3.log
+log4j.appender.Archivo2.layout=org.apache.log4j.PatternLayout
+log4j.appender.Archivo2.layout.ConversionPattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L %m%n
+
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+log4j.rootLogger=All, Archivo
+log4j.appender.Archivo.Threshold=info
+log4j.appender.Archivo=org.apache.log4j.FileAppender
+log4j.appender.Archivo.File=asd.log
+log4j.appender.Archivo.layout=org.apache.log4j.PatternLayout
+log4j.appender.Archivo.layout.ConversionPattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L %m%n
+
+log4j.rootLogger=All, Archivo1
+log4j.appender.Archivo1.Threshold=warn
+log4j.appender.Archivo1=org.apache.log4j.FileAppender
+log4j.appender.Archivo1.File=registros2.log
+log4j.appender.Archivo1.layout=org.apache.log4j.PatternLayout
+log4j.appender.Archivo1.layout.ConversionPattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L %m%n
+
+log4j.rootLogger=All, Archivo2
+log4j.appender.Archivo2.Threshold=debug
+log4j.appender.Archivo2=org.apache.log4j.FileAppender
+log4j.appender.Archivo2.File=registros3.log
+log4j.appender.Archivo2.layout=org.apache.log4j.PatternLayout
+log4j.appender.Archivo2.layout.ConversionPattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L %m%n
+
+
+
